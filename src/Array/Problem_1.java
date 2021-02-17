@@ -5,7 +5,10 @@ package Array;/*
  * Interview Problems
  */
 
-// Reverse an array
+// 1. Reverse an array by using Built In method
 public class Problem_1 {
 
+    public void reverseArray(int arr[]){
+
+    }
 }
