@@ -8,6 +8,8 @@ package Array;/*
 import java.util.Scanner;
 
 // Find the maximum and minimum element in an array with minimum number of comparision
+// T(n) = O(n) ---> when array is in descending order
+// S(n) = O(1)
 public class Problem_4 {
 
     public static void max_min_Array(int[] arr){
