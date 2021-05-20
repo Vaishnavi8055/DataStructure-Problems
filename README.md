@@ -11,7 +11,7 @@ This repository will have solutions of problems asked in interview.
          - T(n) -> O(n)
   
  2. ### Find the maximum and minimum element in an array
-      -  By Simple Linear Search of max and min element using two variables and comparing each element one by one.
+      -  By **Simple Linear Search** of max and min element using two variables and comparing each element one by one.
          - T(n) -> O(n) & S(n) -> O(1)
       -  By **comparing in pairs** of elements in an array.
          - It is best method among others.
