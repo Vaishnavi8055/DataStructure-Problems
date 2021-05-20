@@ -18,5 +18,10 @@ public class Problem_5 {
             min = arr[0];
             max = arr[1];
         }
+        // array size is odd
+        else{
+          min = arr[0];
+          max = arr[0];
+        }
     }
 }
