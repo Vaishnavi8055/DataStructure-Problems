@@ -41,6 +41,9 @@ public class P_1 {
         // Down part
         for (int i = 1; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
+                if(i == j){
+                    System.out.print(" ");
+                }
                 // character from e
                 System.out.printf("%c", s.charAt(j));
             }
