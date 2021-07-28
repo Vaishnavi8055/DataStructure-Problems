@@ -18,14 +18,13 @@ public class P_4 {
         System.out.println(Arrays.toString(words));
 
 
-        if(words.length % 2  == 0){
+        if (words.length % 2 == 0) {
             System.out.println("There are even number of words !!!!!!!");
-        }
-        else {
+        } else {
             int left = 0;
-            int right = words.length-1;
+            int right = words.length - 1;
 
-            while(left < right){
+            while (left < right) {
                 String temp = words[left];
                 words[left] = words[right];
                 words[right] = temp;
@@ -35,5 +34,5 @@ public class P_4 {
             }
             System.out.println(Arrays.toString(words));
         }
-
     }
+}
