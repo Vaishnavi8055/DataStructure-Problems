@@ -28,7 +28,40 @@ package Miscellaneous;/*
 //        Output:
 //        1
 
+import java.util.Scanner;
+
 public class P_5 {
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String bs = sc.next();
+
+    }
+
+    public static int isBinaryString(String bs){
+
+        if(bs.length() % 2 == 0){
+            return -1;
+        }
+
+        int operation = 0;
+        int arr[] = new int[bs.length()];
+        char AND = '&';
+        char XOR = '^';
+        char OR = '|';
+
+        for(int i=0 ; i<bs.length() ; i++) {
+
+            if(bs.charAt(i) == 'I'){
+                arr[i] = '1';
+            }
+            if(bs.charAt(i) == 'O'){
+                arr[i] = '0';
+            }
+        }
+
+        return -1;
+    }
 
 }
