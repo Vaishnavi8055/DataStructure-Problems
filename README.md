@@ -16,9 +16,23 @@ This repository will have solutions of problems asked in interview.
       -  By **comparing in pairs** of elements in an array.
          - It is best method among others in terms of number of comparisions.
          - T(n) -> O(n) & S(n) -> O(1)
+         
  3. ### Find Kth maximum and minimum element in an array
        - Using Built In method - **Arrays.sort(array)**
          - T(n) = O(nlogn)
+        
+ 4. ### Sort the array of 0's 1's and 2's without extra space or sorting algo
+       - By sorting Algorithm or built-In function
+         - T(n) = O(nlogn)
+         - S(n) = O(1)
+       - By using Counting Sort
+         - T(n) = O(n) + O(n) = O(2n)
+       -  By using Switch case or Dutch National Flag Algorithm
+          - T(n) = O(n)
+          - S(n) = O(1)
+        
+         
+         
                 
 
 <hr>
