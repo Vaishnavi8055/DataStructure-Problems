@@ -69,6 +69,9 @@ This repository will have solutions of problems asked in interview.
          By Sorting the array
                 T(n) = O(nlogn) + O(n)
                 S(n) = O(1)
+         By using extra rray to store Frequency of each element from input array
+                T(n) = O(n) + O(n) = O(2n) 
+                S(n) = O(n)
          
          
                 
