@@ -65,17 +65,26 @@ This repository will have solutions of problems asked in interview.
         1 3 5 7 9 8 6 4 2
         1 3 2
        
-6. ### Find the missing and repeating element (twice) from the array given (Problem_9)
+6. ### Find the missing and repeating element (twice) from the array given (Problem_9 , Problem_10)
          By Sorting the array
                 T(n) = O(nlogn) + O(n)
                 S(n) = O(1)
          By using extra rray to store Frequency of each element from input array
                 T(n) = O(n) + O(n) = O(2n) 
                 S(n) = O(n)
-         
-         
-                
-
+    
+7. ### Merge two sorted Arrays
+       By using temporary array of size of both the arrays i.e n1 & n2
+              T(n) = O(n1 + n2)
+              S(n) = O(n1 + n2)
+              
+8. ### Maximum Subarray (contigious or continuous) Sum 
+       By using 3 loops
+              T(n) = O(n^3)
+              
+     
+     
+      
 <hr>
 
 ## COMPANY WISE CODING QUESTIONS
