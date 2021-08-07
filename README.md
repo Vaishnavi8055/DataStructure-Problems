@@ -28,7 +28,7 @@ This repository will have solutions of problems asked in interview.
           S(n) = O(1)
         By using Counting Sort
           T(n) = O(n) + O(n) = O(2n)
-         By using Switch case or Dutch National Flag Algorithm
+        By using Switch case or Dutch National Flag Algorithm
            T(n) = O(n)
            S(n) = O(1)
           
@@ -64,7 +64,11 @@ This repository will have solutions of problems asked in interview.
         Sample Output 2 :
         1 3 5 7 9 8 6 4 2
         1 3 2
-        
+       
+6. ### Find the missing and repeating element (twice) from the array given (Problem_9)
+         By Sorting the array
+                T(n) = O(nlogn) + O(n)
+                S(n) = O(1)
          
          
                 
