@@ -78,9 +78,12 @@ This repository will have solutions of problems asked in interview.
               T(n) = O(n1 + n2)
               S(n) = O(n1 + n2)
               
-8. ### Maximum Subarray (contigious or continuous) Sum 
+8. ### Maximum Subarray (contiguous or continuous) Sum 
        By using 3 loops
               T(n) = O(n^3)
+       By Kadane's Algorithm - Take sum of elements till its positive else return max negative element
+              T(n) = O(n)
+              S(n) = O(1)
               
      
      
