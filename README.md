@@ -66,10 +66,10 @@ This repository will have solutions of problems asked in interview.
         1 3 2
        
 6. ### Find the missing and repeating element (twice) from the array given (Problem_9 , Problem_10)
-         By Sorting the array
+       By Sorting the array
                 T(n) = O(nlogn) + O(n)
                 S(n) = O(1)
-         By using extra rray to store Frequency of each element from input array
+       By using extra rray to store Frequency of each element from input array
                 T(n) = O(n) + O(n) = O(2n) 
                 S(n) = O(n)
     
@@ -85,7 +85,18 @@ This repository will have solutions of problems asked in interview.
               T(n) = O(n)
               S(n) = O(1)
               
-     
+9. ### Set matrix zeroes
+        **First Ask the Interviewer What are the ranges of values in the matrix** 
+        
+        If ans is - All values will be  positive on the sides of zero
+          ------
+              
+8. ### Merge the overlapping Intervals
+    **First Ask the Interviewer whether the Intervals are sorted or not** 
+       
+       KARNA HAI .....
+              
+    
      
       
 <hr>
