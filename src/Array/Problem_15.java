@@ -5,7 +5,7 @@ package Array;/*
  * DataStructure-Problems
  */
 
-// Find maximum subarray sum by Kadanes Algorithm
+// Find maximum subarray sum by Kadane's Algorithm
 public class Problem_15 {
 
     public static void main(String[] args) {
