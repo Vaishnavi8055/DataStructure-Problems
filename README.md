@@ -86,10 +86,20 @@ This repository will have solutions of problems asked in interview.
               S(n) = O(1)
               
 9. ### Set matrix zeroes
-        **First Ask the Interviewer What are the ranges of values in the matrix** 
+     **First Ask the Interviewer What are the ranges of values in the matrix** 
         
         If ans is - All values will be  positive on the sides of zero
-          ------
+          -----
+10. ### Find the duplicates from the array of N+1 Integers (Problem_16 , Problem_17)
+         By sorting the array and checking adjacent elements
+                  T(n) = O(n) + O(nlogn) 
+                  S(n) = O(1)
+         By using counting sot algorithm
+                  T(n) = O(n)
+                  S(n) = O(n)
+         By LinkedList Cycle method
+                 T(n) = O(n)
+                 S(n) = O(1)
               
 8. ### Merge the overlapping Intervals
     **First Ask the Interviewer whether the Intervals are sorted or not** 
