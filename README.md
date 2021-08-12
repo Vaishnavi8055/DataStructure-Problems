@@ -78,6 +78,8 @@ This repository will have solutions of problems asked in interview.
               T(n) = O(n1 + n2)
               S(n) = O(n1 + n2)
               
+              ------
+              
 8. ### Maximum Subarray (contiguous or continuous) Sum 
        By using 3 loops
               T(n) = O(n^3)
@@ -90,7 +92,7 @@ This repository will have solutions of problems asked in interview.
         
         If ans is - All values will be  positive on the sides of zero
           -----
-10. ### Find the duplicates from the array of N+1 Integers (Problem_16 , Problem_17)
+10. ### Find the duplicates from the array of N+1 Integers (Problem_16 , Problem_17 , Problem_18)
          By sorting the array and checking adjacent elements
                   T(n) = O(n) + O(nlogn) 
                   S(n) = O(1)
@@ -100,11 +102,37 @@ This repository will have solutions of problems asked in interview.
          By LinkedList Cycle method
                  T(n) = O(n)
                  S(n) = O(1)
+                 
+11. ### Pascals Triangle
+      **In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:**
+          
+        Interviewer can ask 3 types of ques based on this -
+        
+        a. Given Number of rows i.e N=5 and print the first N rows of Pascals Triangle
+                  T(n) = O(n)  S(n) = O(n)
+                  
+        b. Given N =5, print the Nth row only 
+             --> Approach-1 => Find nth element for each row and column by using below formula
+                              T(n) = O(n^2)    S(n) = O(n^2)
+             --> Approach-2 => Find nth element for each row and column optimally
+                              T(n) = O(n)     S = O(1)
+                              
+        c. Given row number and column number i.e r & c, print the element present at that rownumber & column number
+          `  --> Formula :-  r-1 C c-1 (C = combination - nCr)
+                 example :- r=4 c=3 
+                 element = 4-1 C 3-1 = 3 C 2 = 3*2 / 2*1 = 3 (answer)
+
+##### **nCr Shortcut** - make equal number of terms in denominator as well as numerator
+
+1. **4C3** - 4*3*2 / 3*2*1 = 4/1 = 4 
+2. **7C2** - 7*6 / 2*1 = 7*3 = 21
+
               
 8. ### Merge the overlapping Intervals
     **First Ask the Interviewer whether the Intervals are sorted or not** 
        
        KARNA HAI .....
+       
               
     
      
