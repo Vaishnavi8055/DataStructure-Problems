@@ -19,7 +19,6 @@ public class Problem_2 {
         return;
     }
 
-
     public static void main(String[] args) {
         printNumber(5);
     }
