@@ -127,7 +127,28 @@ This repository will have solutions of problems asked in interview.
 1. **4C3** - 4*3*2 / 3*2*1 = 4/1 = 4 
 2. **7C2** - 7*6 / 2*1 = 7*3 = 21
 
-              
+12. ### Next Permutation
+
+        Input - 1 3 5 4 2  -  1 4 2 3 5
+                   
+         BREAKDOWN ----->  5    \
+                         3   4   \  INCREASING ORDER
+                       1       2  \
+         
+         step 1 - Find the breakdown point
+                ---> Linear traverse the array from back 
+                     find A[i] < A[i+1] , index1 = i+1
+                          T(n) = O(n)         
+                          
+                ---> Again Linearly Traverse the array from back to get the slightly greater than that element ,
+                      find A[index1] < A[index2] ans swap them , index1 = i+1     
+                           T(n) = O(n)
+                           
+                ---> Again Traverse the array from back and reverse the right half
+                            T(n) = O(n)
+                            
+                          T(n) = O(n)   S(n) = O(n)
+                          
 8. ### Merge the overlapping Intervals
     **First Ask the Interviewer whether the Intervals are sorted or not** 
        
@@ -138,6 +159,53 @@ This repository will have solutions of problems asked in interview.
      
       
 <hr>
+
+## B. Recursion
+   1. ### Calculate Power (Problem_1)
+        
+    Write a program to find x to the power n (i.e. x^n). Take x and n from the user. You need to return the answer.
+    Do this recursively.
+    
+    Input format :
+    Two integers x and n (separated by space)
+    Output Format :
+    x^n (i.e. x raise to the power n)
+    
+    Constraints :
+    1 <= x <= 30
+    0 <= n <= 30
+    
+    Sample Input 1 :
+     3 4
+    Sample Output 1 :
+    81
+    Sample Input 2 :
+     2 5
+    Sample Output 2 :
+    32
+    
+   2. ### Print Numbers (Problem_2)
+            
+          Given is the code to print numbers from 1 to n in increasing order recursively. But it contains few bugs that you need to rectify such that all the test cases pass.
+          
+          Input Format :
+           Integer n
+           
+          Output Format :
+           Numbers from 1 to n (separated by space)
+            
+          Constraints :
+           1 <= n <= 10000
+           Sample Input 1 :
+            6
+           Sample Output 1 :
+           1 2 3 4 5 6
+           Sample Input 2 :
+            4
+           Sample Output 2 :
+           1 2 3 4
+
+<hr> 
 
 ## COMPANY WISE CODING QUESTIONS
 
