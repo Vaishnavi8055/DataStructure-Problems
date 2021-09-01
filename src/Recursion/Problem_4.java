@@ -5,7 +5,7 @@ package Recursion;/*
  * DataStructure-Problems
  */
 
-// Fibonacci Number
+// Find the Nth Fibonacci Number
 public class Problem_4 {
 
     public static int N_Fibo_Number(int n){
