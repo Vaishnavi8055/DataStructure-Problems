@@ -418,6 +418,81 @@ This repository will have solutions of problems asked in interview.
      
 <hr> 
 
+## C. Dynamic Programming
+
+<h3>Dynamic Programming can only be applied where a problem consists of - </h3>
+   <ol start="1"> 
+         <li>Optimal Substructure - In this , Bigger Problem depends upon smaller problem</li> 
+         <li>Overlapping Subproblem - In this, SubProblem should repeat again and again</li>
+       
+   </ol>
+   
+   
+1. ### Stair Case
+   
+         A child runs up a staircase with 'n' steps and can hop either 1 step, 2 steps or 3 steps at a time. 
+         Implement a method to count and return all possible ways in which the child can run-up to the stairs.
+         Input format :
+         The first and the only line of input contains an integer value, 'n', denoting the total number of steps.
+         
+         Output format :
+         Print the total possible number of ways.
+            
+         Constraints :
+          0 <= n <= 10 ^ 4
+           
+         Time Limit: 1 sec
+          
+          Sample Input 1:
+           4
+          Sample Output 1:
+           7
+          Sample Input 2:
+           10
+          Sample Output 2:
+           274
+           
+2. ### Min Steps to 1 By DP & Simple Recursion
+       
+       Min Steps To One
+       
+       Given a positive integer 'n', find and return the minimum number of steps that 'n' has to take to get reduced to 1. You can perform any one of the following 3 steps:
+       1.) Subtract 1 from it. (n = n - ­1) ,
+       2.) If its divisible by 2, divide by 2.( if n % 2 == 0, then n = n / 2 ) ,
+       3.) If its divisible by 3, divide by 3. (if n % 3 == 0, then n = n / 3 ).  
+       Write brute-force recursive solution for this.
+       Input format :
+       The first and the only line of input contains an integer value, 'n'.
+       Output format :
+       Print the minimum number of steps.
+       Constraints :
+       1 <= n <= 200
+       
+       Time Limit: 1 sec
+       Sample Input 1 :
+       4
+       Sample Output 1 :
+       2 
+       Explanation of Sample Output 1 :
+       For n = 4
+       Step 1 :  n = 4 / 2  = 2
+       Step 2 : n = 2 / 2  =  1 
+       Sample Input 2 :
+       7
+       Sample Output 2 :
+       3
+       Explanation of Sample Output 2 :
+       For n = 7
+       Step 1 :  n = 7 ­- 1 = 6
+       Step 2 : n = 6  / 3 = 2 
+       Step 3 : n = 2 / 2 = 1  
+       
+3. ### Min Steps to N
+
+           
+   
+   <hr>
+
 ## COMPANY WISE CODING QUESTIONS
 
 ### 1. Accenture
